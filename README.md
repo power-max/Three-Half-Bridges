@@ -1,14 +1,14 @@
-# Three-half-bridges
-Three Half Bridges project is intended to be a universal(ish) module for use in larger power conversion and motor control systems.
+# universal-half-bridge
+Universal Half-Bridge module for use in larger power conversion and motor control systems.
 
-This PCB aims to create a reasonably universal half bridge driver that can be used for medium to high power electrical systems, such as power converters (buck converter, forward converter, LC or LLC converter, etc) motor drivers, etc. As such, it is a bit over-engineered for most modest applications and allows direct control over all switches independently.
+This PCB aims to create a reasonably universal half bridge driver that can be used for medium to high power (100W to 1kW) electrical systems, such as power converters (buck converter, forward converter, LC or LLC converter, etc) motor drivers, etc. As such it is fairly bare-bones and additional components may need to be added external to this PCB for a particular system.
 
-Gate drive topology uses a descrete design optimised for high gate drive currents and minimal propagation delay. End user is expected to design-in proper dead-time control as there are no safegaurds against shoot-through.
+Half bridge power is provided via the bananna jack VCC and GND, the center terminal is the output of the half bridge.
 
-Input is intended to be RTZ (Return to Zero) encoded differential pulses into the inputs of the pulse transformers. Please respect the volt time ratings of the utilized pulse transformers if driving them with a low impedance high current capable source. A positive pulse that exceeds 2V should latch the gate driver HIGH. a negative going pulse of -2V or less should latch the gate driver LOW. If a pulse is missed then this circuit will explode. A shielded differential pair or shielded twinax is recommended for this, along with PLENTY of margin in the voltage thresholds!
+An IRS2186 is used for its high current drive capability and flexabiility in driving the FETs independantly. End user is expected to design in proper dead-time control as there are no safegaurds against shoot-through.
 
 Notes:
-* The end-user is responsible for selecting the exact componts used for this PCB design. (i.e. MOSFET choice, bootstrap capacitor value)
-* While the gate driver input is isolated, this isolation is only as good as the pulse transformer used and the allowable creapage/clearence of the PCB layout. This is a hobby project and not intended for commerical use so no effort has been put into getting any sort of safety certifications!
+There is currently NO electrical isolation between the signal in and the high power connections. This may be a future consideration.
+The end-user is responsible for selecting the exact componts used for this PCB design. (i.e. MOSFET choice, bootstrap capacitor value)
 
-Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
+Licensed under the MIT License (https://mit-license.org/)

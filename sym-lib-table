@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "universal-half-bridge-cache")(type "KiCad")(uri "${KIPRJMOD}/universal-half-bridge-cache.kicad_sym")(options "")(descr ""))
+  (lib (name "universal-half-bridge-parts")(type "KiCad")(uri "${KIPRJMOD}/universal-half-bridge-parts.kicad_sym")(options "")(descr ""))
+  (lib (name "universal-half-bridge-rescue")(type "Legacy")(uri "${KIPRJMOD}/Three-Half-Bridges-rescue.lib")(options "")(descr ""))
+)
