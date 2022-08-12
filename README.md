@@ -1,5 +1,5 @@
-# universal-half-bridge
-Universal Half-Bridge module for use in larger power conversion and motor control systems.
+# Three Half Bridges
+Three Half Bridges project is intended to be a universal(ish) module for use in larger power conversion and motor control systems.
 
 This PCB aims to create a reasonably universal half bridge driver that can be used for medium to high power (100W to 1kW) electrical systems, such as power converters (buck converter, forward converter, LC or LLC converter, etc) motor drivers, etc. As such it is fairly bare-bones and additional components may need to be added external to this PCB for a particular system.
 
