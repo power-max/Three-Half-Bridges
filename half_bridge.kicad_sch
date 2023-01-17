@@ -905,6 +905,15 @@
     (uuid fef4eab3-8271-45b4-a7a7-0882b5b58626)
   )
 
+  (text "THREE HALF BRIDGES PCB SCHEMATIC" (at 186.69 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f03cedb3-510a-4d69-8052-7d616c17a7dc)
+  )
+  (text "01-26-2023" (at 206.375 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f831edd7-f206-48cb-bd8c-a12e6b713b80)
+  )
+
   (hierarchical_label "12V" (shape input) (at 74.93 101.6 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4548ad16-f00c-46f3-9cd6-a0a15e9c2a30)
