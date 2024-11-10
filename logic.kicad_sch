@@ -1,0 +1,70 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8da37aad-2798-433f-bbc6-d8456e0ace5d")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 25.4 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b25195-6983-41e8-89d7-108875038eab")
+	)
+	(bus
+		(pts
+			(xy 165.1 190.5) (xy 25.4 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f12b40-ec00-4ad7-8e73-ace3339635fd")
+	)
+	(bus
+		(pts
+			(xy 165.1 127) (xy 165.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b040cad-7c47-4c71-abb9-0d00db2ca174")
+	)
+	(bus
+		(pts
+			(xy 25.4 127) (xy 25.4 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c8c836-b3d9-4069-a233-bbdb2be43ba8")
+	)
+	(text "Notes:"
+		(exclude_from_sim no)
+		(at 25.4 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "278f14fc-c4b0-4300-b169-8edecc00c882")
+	)
+	(text "1: "
+		(exclude_from_sim no)
+		(at 27.686 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "947d680a-fa43-4f73-9d2e-f67c817bd5a8")
+	)
+)
