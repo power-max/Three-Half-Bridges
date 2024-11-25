@@ -3,4 +3,6 @@
   (lib (name "universal-half-bridge")(type "KiCad")(uri "./three_half_bridges.pretty")(options "")(descr ""))
   (lib (name "three_half_bridges")(type "KiCad")(uri "./three_half_bridges.pretty")(options "")(descr ""))
   (lib (name "PM art")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
+  (lib (name "Three-Half-Bridges")(type "KiCad")(uri "/home/powermax/My Projects/Three-Half-Bridges.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )

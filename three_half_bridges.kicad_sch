@@ -5578,7 +5578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360425_1x01_Horizontal_ScrewM4.0_Boxed"
+		(property "Footprint" "Library:AMT0450028DB0000G"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360425_1x01_Horizontal_ScrewM4.0_Boxed"
+		(property "Footprint" "Library:AMT0450028DB0000G"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -6573,7 +6573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360425_1x01_Horizontal_ScrewM4.0_Boxed"
+		(property "Footprint" "Library:AMT0450028DB0000G"
 			(at 185.42 25.4 0)
 			(effects
 				(font
@@ -7045,7 +7045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360425_1x01_Horizontal_ScrewM4.0_Boxed"
+		(property "Footprint" "Library:AMT0450028DB0000G"
 			(at 185.42 38.1 0)
 			(effects
 				(font
@@ -7263,7 +7263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360425_1x01_Horizontal_ScrewM4.0_Boxed"
+		(property "Footprint" "Library:AMT0450028DB0000G"
 			(at 88.9 67.31 0)
 			(effects
 				(font
