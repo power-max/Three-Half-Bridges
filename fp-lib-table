@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "universal-half-bridge")(type "KiCad")(uri "/home/maxim/Documents/three_half_bridges.pretty")(options "")(descr ""))
-  (lib (name "three_half_bridges")(type "KiCad")(uri "/home/powermax/Desktop/three_half_bridges.pretty")(options "")(descr ""))
+  (lib (name "universal-half-bridge")(type "KiCad")(uri "./three_half_bridges.pretty")(options "")(descr ""))
+  (lib (name "three_half_bridges")(type "KiCad")(uri "./three_half_bridges.pretty")(options "")(descr ""))
+  (lib (name "PM art")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
 )

@@ -27,3 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Linux specific file to store KDE color folder
+.directory
