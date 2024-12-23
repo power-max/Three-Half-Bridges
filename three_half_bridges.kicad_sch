@@ -6767,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Value" "MC78L08_SOT89"
+		(property "Value" "MC78L05_SOT89"
 			(at 148.59 49.53 0)
 			(effects
 				(font
@@ -6794,7 +6794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 8V, SOT-89"
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
 			(at 148.59 53.34 0)
 			(effects
 				(font
