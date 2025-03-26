@@ -1,0 +1,17 @@
+(version 1)
+
+(rule HV_LV
+	# clearance between HV and LV tracks
+	# for a truely safe design it should be increased to 3mm minumum
+   (constraint clearance (min "2mm"))
+   (condition " A.hasNetclass('HV') && B.hasNetClass('LV')"))
+
+# TODO this rule does not work or do anything because memberOfSheet does not work.
+(rule SW
+    # intended to keep traces associated with the SWOUT-referenced seperate from
+    # eachother (crosstalk, flashover)
+    # TODO is there a better less fragile way to do sheet comparison??
+    (constraint clearance (min "3mm"))
+	(condition " A.memberOfSheet('HalfBridge1')"))
+#    (condition " A.hasNetclass('SW') && B.hasNetclass('SW') && A.memberOfSheet('three-half-bridges/half bridge 1') "))
+# !(  (A.memberOfSheet('half bridge 1') && B.memberOfSheet('half bridge 1')) || (A.memberOfSheet('half bridge 2') && B.memberOfSheet('half bridge 2')) || (A.memberOfSheet('half bridge 3') && B.memberOfSheet('half bridge 3')))"   

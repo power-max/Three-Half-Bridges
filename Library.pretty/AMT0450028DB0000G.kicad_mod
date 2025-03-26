@@ -6,7 +6,7 @@
 	(descr "single screw terminal block Metz Connect 360425, block size 9x9mm^2, drill diamater 1.6mm, 4 pads, pad diameter 3.2mm, see http://www.metz-connect.com/de/system/files/METZ_CONNECT_U_Contact_Katalog_Anschlusssysteme_fuer_Leiterplatten_DE_31_07_2017_OFF_024803.pdf?language=en page 134, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect")
 	(tags "THT single screw terminal block Metz Connect 360425 size 9x9mm^2 drill 1.6mm pad 3.2mm")
 	(property "Reference" "J5"
-		(at 4 -1.56 0)
+		(at 5 -1.56 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "a66876be-dcca-4f82-a307-9dac187195c5")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Conn_01x01_Socket"
-		(at 4 9.56 0)
+		(at 4.75 10.31 0)
 		(layer "F.Fab")
 		(uuid "05eb493a-bd88-40c8-9644-543a02751bd1")
 		(effects
@@ -211,7 +211,7 @@
 		(uuid "6a90a200-f88d-4a21-af8d-b26a44e6d1e7")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 4 -1.56 0)
+		(at 4.75 -3.06 0)
 		(layer "F.Fab")
 		(uuid "67edc8a8-c729-417d-8ca3-b3e0fa0972a4")
 		(effects
@@ -222,7 +222,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at 0 0)
+		(at 0 0 90)
 		(size 5 3.2)
 		(drill oval 3.7 1.6)
 		(layers "*.Cu" "*.Mask")
@@ -230,15 +230,23 @@
 		(uuid "c0ca8c72-e7c1-4249-8d5a-a42bab5e6848")
 	)
 	(pad "1" thru_hole oval
-		(at 0 7)
+		(at 0 7 90)
 		(size 5 3.2)
 		(drill oval 3.7 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c4666841-5ac8-4375-87bc-879a853ccfae")
 	)
+	(pad "1" thru_hole circle
+		(at 4.75 3.5)
+		(size 6.5 6.5)
+		(drill 5.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a19f6219-2ae6-48f5-8e79-e0b8fee77679")
+	)
 	(pad "1" thru_hole oval
-		(at 9.3 0)
+		(at 9.3 0 90)
 		(size 5 3.2)
 		(drill oval 3.7 1.6)
 		(layers "*.Cu" "*.Mask")
@@ -246,7 +254,7 @@
 		(uuid "697f01e4-0fba-4480-8c04-34e560eb8e66")
 	)
 	(pad "1" thru_hole oval
-		(at 9.3 7)
+		(at 9.3 7 90)
 		(size 5 3.2)
 		(drill oval 3.7 1.6)
 		(layers "*.Cu" "*.Mask")
